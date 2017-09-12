@@ -1,0 +1,22 @@
+//
+//  ZLView.cpp
+//  ZDStudent
+//
+//  Created by zhangdong on 16/8/31.
+//  Copyright © 2016年 Eagley. All rights reserved.
+//
+
+#include "ZLView.hpp"
+
+
+ZLView::ZLView(ZLApplication* application)
+{
+    Application = application;
+}
+ bool ZLView::isDoubleTapSupported() {
+    return false;
+}
+
+ bool ZLView::onTrackballRotated(int diffX, int diffY) {
+    return false;
+}
